@@ -34,7 +34,7 @@ npm install kv/cli -g
 kv create your_project_name
 ```
 
-自动拉取项目模板、安装项目依赖、打开浏览器 http://localhost:8083/、自动启动项目
+自动拉取项目模板、安装项目依赖、打开浏览器 `http://localhost:8083/`、自动启动项目
 
 ps: 若目录结构、端口号等问题可自行根据项目需求进行调整:)
 
@@ -56,7 +56,7 @@ kv vue3-page yourPageName -d src/views/home // 也可指定文件夹
 kv vue2-cpn yourCpnName // eg: kv vue2-cpn HelloWord 默认会放到src/components/common目录下
 kv vue2-cpn yourCpnName -d src/components/modules // 也可指定文件夹
 
-kv vue3-cpn yourCpnName // eg: kv vue3-cpn HelloWord 默认会放到src/views目录下
+kv vue3-cpn yourCpnName // eg: kv vue3-cpn HelloWord 默认会放到src/components/common目录下
 kv vue3-cpn yourCpnName -d src/components/modules // 也可指定文件夹
 ```
 
@@ -90,10 +90,10 @@ files.keys().forEach((key) => {
 > 4、创建 vuex 子模块
 
 ```bash
-kv vue2-store yourModuleName // eg: kv vue2-router Home 默认会放到src/store/modules目录下
+kv vue2-store yourModuleName // eg: kv vue2-store Home 默认会放到src/store/modules目录下
 kv vue2-store yourModuleName -d src/store // 也可指定文件夹
 
-kv vue3-store yourModuleName // eg: kv vue3-router Home 默认会放到src/store/modules目录下
+kv vue3-store yourModuleName // eg: kv vue3-store Home 默认会放到src/store/modules目录下
 kv vue3-store yourModuleName -d src/store // 也可指定文件夹
 ```
 
