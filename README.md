@@ -1,76 +1,76 @@
-# 说明文档
+# Documentation
 
-`kv-cli`: 一个帮助你快速搭建和开发前端项目的 CLI
+`kv-cli`: A CLI to help you quickly build and develop front-end projects
 
-该项目旨在使前端开发工程化，提高开发效率。
+The project aims to make front-end development engineering and improve development efficiency.
 
-## 一、安装
+## 一、Installation
 
 ```bash
 npm install kv/cli -g
 ```
 
-## 二、特性
+## 二、Features
 
-目前只支持 `vue` 项目，包括 `vue2`、`vue3`（后期考虑支持 `react` 项目）
+Currently Vue is supported, including the project of vue2 and vue3, (React will be supported later)
 
-项目基础模板已经配置，主要包括：
+The vue project module has been configured, including：
 
-- 常用的目录结构 （你可以在此基础上修改）
+- Common directory structure (you can modify on this basis)
 
-- vue.config.js （已经有了一些配置，可以自行修改和配置更多）
+- vue.config.js （something has configured，you can modify and configure more by yourself）
 
-- axios （网络请求 axios 的安装以及二次封装）
+- axios (network request axios installation and secondary packaging)
 
-- vue-router （router 的安装和配置，另有路由的动态加载）
+- vue-router (router installation and configuration, in addition to dynamic loading of routing)
 
-- vuex （vuex 的安装和配置，另有动态加载子模块）
+- vuex (installation and configuration of vuex, there are also dynamic loading sub-modules)
 
 - etc...
 
-创建项目
+Create project
 
 ```bash
 kv create your_project_name
 ```
 
-自动拉取项目模板、安装项目依赖、打开浏览器 `http://localhost:8083/`、自动启动项目
+Automatically pull project templates, install project dependencies, open browsers, `http://localhost:8080/`and automatically start projects
 
-ps: 若目录结构、端口号等问题可自行根据项目需求进行调整:)
+ps: If there are problems such as directory structure and port, they can be modified according to the needs of your project:)
 
-## 三、常用命令介绍
+## 三、Command
 
-> 1、创建页面
-
-```bash
-kv vue2-page yourPageName // eg: kv vue2-page HelloWord 默认会放到src/pages目录下
-kv vue2-page yourPageName -d src/pages/home // 也可指定文件夹
-
-kv vue3-page yourPageName // eg: kv vue3-page HelloWord 默认会放到src/views目录下
-kv vue3-page yourPageName -d src/views/home // 也可指定文件夹
-```
-
-> 2、创建组件
+> 1、Create page
 
 ```bash
-kv vue2-cpn yourCpnName // eg: kv vue2-cpn HelloWord 默认会放到src/components/common目录下
-kv vue2-cpn yourCpnName -d src/components/modules // 也可指定文件夹
+kv vue2-page yourPageName // eg: kv vue2-page HelloWord, the default will be stored in src / pages folder
+kv vue2-page yourPageName -d src/pages/home // You can also specify a folder
 
-kv vue3-cpn yourCpnName // eg: kv vue3-cpn HelloWord 默认会放到src/components/common目录下
-kv vue3-cpn yourCpnName -d src/components/modules // 也可指定文件夹
+kv vue3-page yourPageName // eg: kv vue3-page HelloWord, the default will be stored in src / views folder
+kv vue3-page yourPageName -d src/views/home // You can also specify a folder
 ```
 
-> 3、创建路由
+> 2、Create component
 
 ```bash
-kv vue2-router yourRouterName // eg: kv vue2-router Home 默认会放到src/router/map目录下
-kv vue2-router yourRouterName -d src/router // 也可指定文件夹
+kv vue2-cpn yourCpnName // eg: kv vue2-cpn HelloWord, the default will be stored in src/components/common folder
+kv vue2-cpn yourCpnName -d src/components/modules // You can also specify a folder
 
-kv vue3-router yourRouterName // eg: kv vue3-router Home 默认会放到src/router/map目录下
-kv vue3-router yourRouterName -d src/router // 也可指定文件夹
+kv vue3-cpn yourCpnName // eg: kv vue3-cpn HelloWord, the default will be stored in src/components/common folder
+kv vue3-cpn yourCpnName -d src/components/modules // You can also specify a folder
 ```
 
-创建完成后，无需手动配置，已经动态将所有路由集成进去了：
+> 3、Create router
+
+```bash
+kv vue2-router yourRouterName // eg: kv vue2-router Home, the default will be stored in src/router/map folder
+kv vue2-router yourRouterName -d src/router // You can also specify a folder
+
+kv vue3-router yourRouterName // eg: kv vue3-router Home, the default will be stored in src/router/map folder
+kv vue3-router yourRouterName -d src/router // You can also specify a folder
+```
+
+After the creation is completed, no manual configuration is required, and all routes have been dynamically integrated:
 
 ```js
 const routes = [];
@@ -87,17 +87,17 @@ files.keys().forEach((key) => {
 });
 ```
 
-> 4、创建 vuex 子模块
+> 4、Create Vuex submodule
 
 ```bash
-kv vue2-store yourModuleName // eg: kv vue2-store Home 默认会放到src/store/modules目录下
-kv vue2-store yourModuleName -d src/store // 也可指定文件夹
+kv vue2-store yourModuleName // eg: kv vue2-store Home, the default will be stored in src/store/modules folder
+kv vue2-store yourModuleName -d src/store // You can also specify a folder
 
-kv vue3-store yourModuleName // eg: kv vue3-store Home 默认会放到src/store/modules目录下
-kv vue3-store yourModuleName -d src/store // 也可指定文件夹
+kv vue3-store yourModuleName // eg: kv vue3-store Home, the default will be stored in src/store/modules folder
+kv vue3-store yourModuleName -d src/store // You can also specify a folder
 ```
 
-创建完成后，无需手动配置，已经动态将所有子模块集成进去了：
+After the creation is completed, no manual configuration is required, and all sub-modules have been dynamically integrated:
 
 ```js
 const modules = {};
