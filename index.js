@@ -10,8 +10,6 @@ const {
   createCommands
 } = require('./lib/core/create')
 
-const log = require('./lib/utils/log')
-
 // 查看版本号
 program.version(require('./package.json').version)
 
