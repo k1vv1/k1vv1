@@ -1,5 +1,5 @@
 {
-  "name": "kvcli",
+  "name": "kxxvy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,10 +17,10 @@
   ],
   "author": "kxxvy",
   "license": "MIT",
-  "homepage": "https://github.com/kxxvy/kv-cli",
+  "homepage": "https://github.com/kxxvy/kxxvy",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kxxvy/kv-cli"
+    "url": "https://github.com/kxxvy/kxxvy"
   },
   "dependencies": {
     "chalk": "^4.1.0",

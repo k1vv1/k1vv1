@@ -1,13 +1,13 @@
 # 说明文档
 
-`kv-cli`: 一个帮助你快速搭建和开发前端项目的 CLI
+`kxxvy`: 一个帮助你快速搭建和开发前端项目的 CLI
 
 该项目旨在使前端开发工程化，提高开发效率。
 
 ## 一、安装
 
 ```bash
-npm install kv/cli -g
+npm install kxxvy -g
 ```
 
 ## 二、特性

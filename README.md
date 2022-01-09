@@ -1,13 +1,13 @@
 # Documentation
 
-`kv-cli`: A CLI to help you quickly build and develop front-end projects
+`kxxvy`: A CLI to help you quickly build and develop front-end projects
 
 The project aims to make front-end development engineering and improve development efficiency.
 
 ## 一、Installation
 
 ```bash
-npm install kv/cli -g
+npm install kxxvy -g
 ```
 
 ## 二、Features
