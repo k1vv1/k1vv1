@@ -34,7 +34,7 @@ Create project
 kv create your_project_name
 ```
 
-Automatically pull project templates, install project dependencies, open browsers, `http:#localhost:8080/`and automatically start projects
+Automatically pull project templates, install project dependencies, open browsers, `http://localhost:8083/`and automatically start projects
 
 ps: If there are problems such as directory structure and port, they can be modified according to the needs of your project:)
 

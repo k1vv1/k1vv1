@@ -34,7 +34,7 @@ npm install kxxvy -g
 kv create your_project_name
 ```
 
-自动拉取项目模板、安装项目依赖、打开浏览器 `http:#localhost:8083/`、自动启动项目
+自动拉取项目模板、安装项目依赖、打开浏览器 `http://localhost:8083/`、自动启动项目
 
 ps: 若目录结构、端口号等问题可自行根据项目需求进行调整:)
 
