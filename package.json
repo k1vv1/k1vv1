@@ -1,6 +1,6 @@
 {
   "name": "kxxvy",
-  "version": "1.1.2",
+  "version": "1.2.2",
   "description": "",
   "bin": {
     "kv": "bin/cli.js"
