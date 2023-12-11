@@ -12,7 +12,7 @@ npm install kxxvy -g
 
 ## 二、Features
 
-Currently Vue is supported, including the project of vue2 and vue3, (React will be supported later)
+Currently, including the project of vue2、vue3、react and uniapp
 
 The vue project module has been configured, including：
 
