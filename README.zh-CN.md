@@ -12,7 +12,7 @@ npm install kxxvy -g
 
 ## 二、特性
 
-目前只支持 `vue` 项目，包括 `vue2`、`vue3`（后期考虑支持 `react` 项目）
+目前支持`vue2`、`vue3`、`react`以及`uniapp`。
 
 项目基础模板已经配置，主要包括：
 
